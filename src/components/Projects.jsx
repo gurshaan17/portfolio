@@ -1,12 +1,11 @@
 import React from "react";
-
 import {
   FaReact,
   FaNodeJs,
   FaDatabase,
   FaGithub,
 } from "react-icons/fa";
-import { SiRedux, SiVite, SiTailwindcss, SiAuth0, SiExpress } from "react-icons/si";
+import { SiRedux, SiVite, SiTailwindcss, SiAuth0, SiExpress, SiPostgresql, SiNextdotjs } from "react-icons/si";
 
 function Projects() {
   const getTechIcon = (tech) => {
@@ -27,6 +26,10 @@ function Projects() {
         return <SiAuth0 size={28} className="text-orange-500" />;
       case "Express.js":
         return <SiExpress size={28} className="text-yellow-800 dark:text-yellow-200" />;
+      case "PostgreSQL":
+        return <SiPostgresql size={28} className="text-blue-700" />;
+      case "Next.js":
+        return <SiNextdotjs size={28} className="text-black dark:text-white" />;
       default:
         return null;
     }
@@ -34,18 +37,18 @@ function Projects() {
 
   const projects = [
     {
-      title: "Chess",       
-      imageUrl: "/chess.png",
-      link: "https://github.com/dans2177/Box3D-Frontend",
+      title: "Chess",
+      imageUrl: "/chess5.png",
+      link: "https://github.com/gurshaan17/chess",
       linkType: "github",
       techStack: "MongoDB, Express.js, React, Node.js",
     },
     {
       title: "Blog App",
       imageUrl: "/blog.png",
-      link: "https://github.com/gurshaan17/chess",
+      link: "https://github.com/gurshaan17/medium-clone",
       linkType: "github",
-      techStack: "Vite, TailwindCSS",
+      techStack: "TailwindCSS, MongoDB, Next.js, PostgreSQL",
     },
   ];
 
@@ -58,13 +61,14 @@ function Projects() {
         {projects.map((project, index) => (
           <div
             key={index}
-            className="flex flex-col rounded-lg bg-white shadow-lg dark:bg-gray-900 transform hover:scale-95 transition duration-300"
+            className="flex flex-col rounded-lg bg-white shadow-lg dark:bg-gray-900 transform hover:scale-95 transition duration-300 w-full"
           >
             <div className="relative flex flex-col h-full text-left">
               <img
                 src={project.imageUrl}
                 alt={`Project ${project.title}`}
-                className="object-cover w-full h-48 md:h-full rounded-t-lg"
+                className="object-cover w-full h-72 rounded-t-lg"
+                style={{ objectFit: "cover" }}
               />
               <div className="p-4 flex flex-col justify-between h-full w-full">
                 <h3 className="text-xl pb-4 text-bold text-center font-semibold font-comfortaa dark:text-amber-400 mt-4">
