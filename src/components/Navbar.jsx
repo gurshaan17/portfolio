@@ -31,9 +31,11 @@ const Navbar = () => {
         <li className={navItemClass} onClick={() => scrollToSection("skills")}>
           Skills
         </li>
-        <li className={navItemClass} onClick={() => scrollToSection("resume")}>
-          Resume
-        </li>
+        <a href="https://docs.google.com/document/d/132PcOfLFB_S8Tjkv5QuXxhswAKwxwTRDn--RIZi7D3Q/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+          <li className={navItemClass} >
+            Resume
+          </li>
+        </a>
         <li className={navItemClass} onClick={() => scrollToSection("contact")}>
           Contact
         </li>
