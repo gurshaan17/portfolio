@@ -48,7 +48,7 @@ function Projects() {
       imageUrl: "/blog.png",
       link: "https://github.com/gurshaan17/medium-clone",
       linkType: "github",
-      techStack: "TailwindCSS, MongoDB, Next.js, PostgreSQL",
+      techStack: "TailwindCSS, Next.js, PostgreSQL",
     },
   ];
 
