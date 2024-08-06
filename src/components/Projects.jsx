@@ -5,7 +5,7 @@ import {
   FaDatabase,
   FaGithub,
 } from "react-icons/fa";
-import { SiRedux, SiVite, SiTailwindcss, SiAuth0, SiExpress, SiPostgresql, SiNextdotjs } from "react-icons/si";
+import { SiRedux, SiVite, SiTailwindcss, SiAuth0, SiExpress, SiPostgresql, SiNextdotjs, SiFirebase } from "react-icons/si";
 
 function Projects() {
   const getTechIcon = (tech) => {
@@ -30,6 +30,8 @@ function Projects() {
         return <SiPostgresql size={28} className="text-blue-700" />;
       case "Next.js":
         return <SiNextdotjs size={28} className="text-black dark:text-white" />;
+      case "Firebase":
+        return <SiFirebase size={28} className="text-yellow-400"/>
       default:
         return null;
     }
@@ -49,7 +51,13 @@ function Projects() {
       link: "https://github.com/gurshaan17/medium-clone",
       linkType: "github",
       techStack: "TailwindCSS, Next.js, PostgreSQL",
-    },
+    },{
+      title:"OG Image Generator",
+      imageUrl:"/blog.png",
+      link:"https://github.com/gurshaan17/og-image",
+      linkType:"github",
+      techStack:"TailwindCSS, React, Node.js, Firebase"
+    }
   ];
 
   return (
