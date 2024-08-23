@@ -4,6 +4,7 @@ import {
   FaNodeJs,
   FaDatabase,
   FaGithub,
+  FaExternalLinkAlt,
 } from "react-icons/fa";
 import { SiRedux, SiVite, SiTailwindcss, SiAuth0, SiExpress, SiPostgresql, SiNextdotjs, SiFirebase } from "react-icons/si";
 
@@ -44,6 +45,7 @@ function Projects() {
       link: "https://github.com/gurshaan17/chess",
       linkType: "github",
       techStack: "MongoDB, Express.js, React, Node.js",
+      demo:"https://github.com/gurshaan17/chess"
     },
     {
       title: "Blog App",
@@ -51,12 +53,14 @@ function Projects() {
       link: "https://github.com/gurshaan17/medium-clone",
       linkType: "github",
       techStack: "TailwindCSS, Next.js, PostgreSQL",
+      demo:"https://github.com/gurshaan17/medium-clone"
     },{
       title:"OG Image Generator",
-      imageUrl:"/blog.png",
+      imageUrl:"/og.png",
       link:"https://github.com/gurshaan17/og-image",
       linkType:"github",
-      techStack:"TailwindCSS, React, Node.js, Firebase"
+      techStack:"TailwindCSS, React, Node.js, Firebase",
+      demo:"https://og-image-gurshaan.vercel.app"
     }
   ];
 
@@ -108,7 +112,7 @@ function Projects() {
                     <FaGithub className="text-xl text-white" />
                     <span className="text-sm text-white">GitHub</span>
                   </a>
-                  {/* <a
+                  <a
                     href={project.demo}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -116,7 +120,7 @@ function Projects() {
                   >
                     <FaExternalLinkAlt className="text-xl text-white" />
                     <span className="text-sm text-white">Demo</span>
-                  </a> */}
+                  </a>
                 </div>
               </div>
             </div>
