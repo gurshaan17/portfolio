@@ -46,8 +46,14 @@ function Projects() {
       linkType: "github",
       techStack: "MongoDB, Express.js, React, Node.js",
       demo:"https://github.com/gurshaan17/chess"
-    },
-    {
+    },{
+      title:"URL Shortener",
+      imageUrl:"/url.png",
+      link:"https://github.com/gurshaan17/url-fe",
+      linkType:"github",
+      techStack:"Next.js, MongoDB, Node.js, TailwindCSS",
+      demo:"https://shorturl17.vercel.app"
+    },{
       title: "Blog App",
       imageUrl: "/blog.png",
       link: "https://github.com/gurshaan17/medium-clone",
