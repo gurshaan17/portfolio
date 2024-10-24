@@ -54,6 +54,13 @@ function Projects() {
       techStack:"Next.js, MongoDB, Node.js, TailwindCSS",
       demo:"https://shorturl17.vercel.app"
     },{
+      title: "Pastebin",
+      imageUrl: "/paste.png",
+      link: "https://github.com/gurshaan17/pastebin",
+      linkType:"github",
+      techStack:"Next.js, MongoDB, Node.js, TailwindCSS",
+      demo: "https://controlc.vercel.app"
+    },{
       title: "Blog App",
       imageUrl: "/blog.png",
       link: "https://github.com/gurshaan17/medium-clone",
