@@ -6,13 +6,13 @@ import {
   FaReact,
   FaNodeJs,
   FaDatabase,
-  FaLock,
   FaGithub,
   FaDocker,
-  FaAws, // Keep this import and remove the duplicate
+  FaAws,
 } from "react-icons/fa";
 import { TbBrandNextjs } from "react-icons/tb";
-import { SiTailwindcss, SiMongodb, SiRedux } from "react-icons/si";
+import { SiTailwindcss, SiMongodb, SiRedux, SiWebrtc, SiTypescript } from "react-icons/si";
+import { FaGolang } from "react-icons/fa6";
 
 function Skills() {
   const skillSet = [
@@ -21,6 +21,9 @@ function Skills() {
     {
       skill: "JavaScript",
       icon: <FaJsSquare className="text-yellow-600" size="4em" />,
+    },{
+      skill: "Typescript",
+      icon: <SiTypescript className="text-blue-600" size="4em"/>
     },
     { skill: "React", icon: <FaReact className="text-blue-400" size="4em" /> },
     {
@@ -35,14 +38,13 @@ function Skills() {
       skill: "MongoDB",
       icon: <SiMongodb className="text-green-600" size="4em" />,
     },
-
+    {
+      skill: "Go Lang",
+      icon: <FaGolang className="text-blue-400" size="4em"/>,
+    },
     {
       skill: "Redux",
       icon: <SiRedux className="text-purple-600" size="4em" />, // Assuming SiRedux is the icon for Redux
-    },
-    {
-      skill: "Auth0",
-      icon: <FaLock className="text-orange-500" size="4em" />, // Using FaLock as a placeholder for Auth0
     },
     {
       skill: "SQL",
@@ -54,7 +56,12 @@ function Skills() {
     },
     {
       skill: "NextJS",
-      icon:<TbBrandNextjs className="text-white" size="4em"/>
+      icon:<TbBrandNextjs className="text-black dark:text-white" size="4em"/>
+    },
+    {
+      skill: "Web RTC",
+      icon: <SiWebrtc className="text-black dark:text-white" size="4em"/>
+
     },
     {
       skill:"Docker",
