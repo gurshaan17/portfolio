@@ -47,6 +47,7 @@ function Projects() {
       link: "https://github.com/gurshaan17/wallet",
       linkType: "github",
       techStack:"Next.js, Node.js, TailwindCSS, Typescript",
+      demo: "https://wallet.gurshaan.xyz"
     },
     {
       title: "Chess",
