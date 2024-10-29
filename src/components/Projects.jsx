@@ -6,7 +6,7 @@ import {
   FaGithub,
   FaExternalLinkAlt,
 } from "react-icons/fa";
-import { SiRedux, SiVite, SiTailwindcss, SiAuth0, SiExpress, SiPostgresql, SiNextdotjs, SiFirebase } from "react-icons/si";
+import { SiRedux, SiVite, SiTailwindcss, SiAuth0, SiExpress, SiPostgresql, SiNextdotjs, SiFirebase, SiTypescript } from "react-icons/si";
 
 function Projects() {
   const getTechIcon = (tech) => {
@@ -33,12 +33,21 @@ function Projects() {
         return <SiNextdotjs size={28} className="text-black dark:text-white" />;
       case "Firebase":
         return <SiFirebase size={28} className="text-yellow-400"/>
+      case "Typescript":
+        return <SiTypescript size={28} className="text-blue-500"/>
       default:
         return null;
     }
   };
 
   const projects = [
+    {
+      title:"Web3 Wallet",
+      imageUrl: "/wallet.png",
+      link: "https://github.com/gurshaan17/wallet",
+      linkType: "github",
+      techStack:"Next.js, Node.js, TailwindCSS, Typescript",
+    },
     {
       title: "Chess",
       imageUrl: "/chess5.png",
@@ -58,7 +67,7 @@ function Projects() {
       imageUrl: "/paste.png",
       link: "https://github.com/gurshaan17/pastebin",
       linkType:"github",
-      techStack:"Next.js, MongoDB, Node.js, TailwindCSS",
+      techStack:"Next.js, MongoDB, Node.js, Typescript",
       demo: "https://controlc.vercel.app"
     },{
       title: "Blog App",
