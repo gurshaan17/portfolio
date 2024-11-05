@@ -47,7 +47,7 @@ function Projects() {
       link: "https://github.com/gurshaan17/resume-builder",
       linkType: "github",
       techStack: "Next.js, Node.js, TailwindCSS, Typescript",
-      demo: "https://resume-builer.gurshaan.xyz"
+      demo: "https://resume-builder.gurshaan.xyz"
     },
     {
       title:"Web3 Wallet",
