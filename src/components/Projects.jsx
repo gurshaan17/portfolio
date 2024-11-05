@@ -42,6 +42,14 @@ function Projects() {
 
   const projects = [
     {
+      title:"AI Resume Generator",
+      imageUrl: "/cv.png",
+      link: "https://github.com/gurshaan17/resume-builder",
+      linkType: "github",
+      techStack: "Next.js, Node.js, TailwindCSS, Typescript",
+      demo: "https://resume-builer.gurshaan.xyz"
+    },
+    {
       title:"Web3 Wallet",
       imageUrl: "/wallet.png",
       link: "https://github.com/gurshaan17/wallet",
