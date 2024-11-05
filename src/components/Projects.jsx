@@ -79,13 +79,6 @@ function Projects() {
       techStack:"Next.js, MongoDB, Node.js, Typescript",
       demo: "https://controlc.vercel.app"
     },{
-      title: "Blog App",
-      imageUrl: "/blog.png",
-      link: "https://github.com/gurshaan17/medium-clone",
-      linkType: "github",
-      techStack: "TailwindCSS, Next.js, PostgreSQL",
-      demo:"https://github.com/gurshaan17/medium-clone"
-    },{
       title:"OG Image Generator",
       imageUrl:"/og.png",
       link:"https://github.com/gurshaan17/og-image",
