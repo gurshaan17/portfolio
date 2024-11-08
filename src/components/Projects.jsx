@@ -54,10 +54,10 @@ function Projects() {
     },
     {
       title: "StoryTeller AI",
-      image: "/story.png",
+      image: "/story1.png",
       link: "https://github.com/gurshaan17/story-teller",
       linkType: "github",
-      techStack: "Next.js, AI, TailwindCSS, Typescript, ",
+      techStack: "Next.js, AI, TailwindCSS, Typescript",
       demo: "https://storyteller.gurshaan.xyz"
     },
     {
