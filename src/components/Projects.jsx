@@ -7,6 +7,7 @@ import {
   FaExternalLinkAlt,
 } from "react-icons/fa";
 import { SiRedux, SiVite, SiTailwindcss, SiAuth0, SiExpress, SiPostgresql, SiNextdotjs, SiFirebase, SiTypescript } from "react-icons/si";
+import { GiArtificialIntelligence } from "react-icons/gi";
 
 function Projects() {
   const getTechIcon = (tech) => {
@@ -35,6 +36,8 @@ function Projects() {
         return <SiFirebase size={28} className="text-yellow-400"/>
       case "Typescript":
         return <SiTypescript size={28} className="text-blue-500"/>
+      case "AI":
+        return <GiArtificialIntelligence size={28} className="text-blue-500" />
       default:
         return null;
     }
@@ -46,8 +49,16 @@ function Projects() {
       imageUrl: "/cv.png",
       link: "https://github.com/gurshaan17/resume-builder",
       linkType: "github",
-      techStack: "Next.js, Node.js, TailwindCSS, Typescript",
+      techStack: "Next.js, AI, TailwindCSS, Typescript",
       demo: "https://resume-builder.gurshaan.xyz"
+    },
+    {
+      title: "StoryTeller AI",
+      image: "/story.png",
+      link: "https://github.com/gurshaan17/story-teller",
+      linkType: "github",
+      techStack: "Next.js, AI, TailwindCSS, Typescript, ",
+      demo: "https://storyteller.gurshaan.xyz"
     },
     {
       title:"Web3 Wallet",
@@ -58,13 +69,6 @@ function Projects() {
       demo: "https://wallet.gurshaan.xyz"
     },
     {
-      title: "Chess",
-      imageUrl: "/chess5.png",
-      link: "https://github.com/gurshaan17/chess",
-      linkType: "github",
-      techStack: "MongoDB, Express.js, React, Node.js",
-      demo:"https://github.com/gurshaan17/chess"
-    },{
       title:"URL Shortener",
       imageUrl:"/url.png",
       link:"https://github.com/gurshaan17/url-fe",
