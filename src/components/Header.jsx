@@ -12,8 +12,7 @@ function Header() {
         </div>
         <p className="text-left text-black dark:text-white mt-20 sm:mt-0 p-4 md:pl-10 md:text-2xl xl:text-4xl font-prata leading-normal sm:leading-relaxed ">
           Full Stack Web Developer <br />
-          Bachelors in Information Technology (2027) <br />
-          {/* Certified ScrumMaster */}
+          Bachelors in Information Technology  <br />
         </p>
       </div>
     </header>
