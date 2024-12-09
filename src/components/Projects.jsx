@@ -51,7 +51,7 @@ function Projects() {
   const projects = [
     {
       title:"2D Metaverse",
-      imageUrl: "meta.png",
+      imageUrl: "meta1.png",
       link: "https://github.com/gurshaan17/2d_metaverse",
       linkType: "github",
       techStack: "WebRTC, WebSockets, React, MongoDB",
