@@ -6,7 +6,7 @@ import {
   FaGithub,
   FaExternalLinkAlt,
 } from "react-icons/fa";
-import { SiRedux, SiVite, SiTailwindcss, SiAuth0, SiExpress, SiPostgresql, SiNextdotjs, SiFirebase, SiTypescript } from "react-icons/si";
+import { SiRedux, SiVite, SiTailwindcss, SiAuth0, SiExpress, SiPostgresql, SiNextdotjs, SiFirebase, SiTypescript, SiWebrtc, SiWebsocket } from "react-icons/si";
 import { GiArtificialIntelligence } from "react-icons/gi";
 
 function Projects() {
@@ -38,12 +38,24 @@ function Projects() {
         return <SiTypescript size={28} className="text-blue-500"/>
       case "AI":
         return <GiArtificialIntelligence size={28} className="text-blue-500" />
+      case "WebRTC":
+        return <SiWebrtc size={28} className="text-blue-500" />;
+      case "WebSockets":
+        return <SiWebsocket size={28} className="text-blue-500" />;
       default:
         return null;
     }
   };
 
   const projects = [
+    {
+      title:"2D Metaverse",
+      imageUrl: "meta.png",
+      link: "https://github.com/gurshaan17/2d_metaverse",
+      linkType: "github",
+      techStack: "WebRTC, WebSockets, React, MongoDB",
+      demo: "https://metaverse.gurshaan.xyz",
+    },
     {
       title:"AI Resume Generator",
       imageUrl: "/cv.png",
@@ -82,13 +94,6 @@ function Projects() {
       linkType:"github",
       techStack:"Next.js, MongoDB, Node.js, Typescript",
       demo: "https://controlc.vercel.app"
-    },{
-      title:"OG Image Generator",
-      imageUrl:"/og.png",
-      link:"https://github.com/gurshaan17/og-image",
-      linkType:"github",
-      techStack:"TailwindCSS, React, Node.js, Firebase",
-      demo:"https://og-image-gurshaan.vercel.app"
     }
   ];
 
