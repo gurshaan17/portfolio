@@ -10,7 +10,7 @@ function About() {
             <div className="w-full">
               <div className="dark:bg-opacity-10 backdrop-filter backdrop-blur-lg rounded-lg">
                 <h3 className="text-lg pb-4 font-comfortaa text-gray-900 dark:text-white">
-                  While pursuing a CS degree from NIT Jalanhdar, I embarked on a coding journey. Passionate about technology and servant leadership, I am committed to using my skills to serve and innovate.
+                  While pursuing a IT degree from NIT Jalanhdar, I embarked on a coding journey. Passionate about technology and servant leadership, I am committed to using my skills to serve and innovate.
                   <br />
                   <br />
                   With a keen attention to detail, I strive for excellence in every project. I aim to deliver solutions that meet high quality and user experience standards. My dedication to making a positive impact through technology drives my professional journey.
