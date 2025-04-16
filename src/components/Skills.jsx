@@ -11,8 +11,9 @@ import {
   FaAws,
 } from "react-icons/fa";
 import { TbBrandNextjs } from "react-icons/tb";
-import { SiTailwindcss, SiMongodb, SiRedux, SiWebrtc, SiTypescript } from "react-icons/si";
+import { SiTailwindcss, SiMongodb, SiRedux, SiWebrtc, SiTypescript, SiFirebase } from "react-icons/si";
 import { FaGolang } from "react-icons/fa6";
+import { RiFlutterLine } from "react-icons/ri";
 
 function Skills() {
   const skillSet = [
@@ -34,6 +35,7 @@ function Skills() {
       skill: "Node.js",
       icon: <FaNodeJs className="text-green-500" size="4em" />,
     },
+
     {
       skill: "MongoDB",
       icon: <SiMongodb className="text-green-600" size="4em" />,
@@ -44,19 +46,23 @@ function Skills() {
     },
     {
       skill: "Redux",
-      icon: <SiRedux className="text-purple-600" size="4em" />, // Assuming SiRedux is the icon for Redux
+      icon: <SiRedux className="text-purple-600" size="4em" />,
     },
     {
       skill: "SQL",
-      icon: <FaDatabase className="text-blue-500" size="4em" />, // Using FaDatabase for SQL
-    },
-    {
-      skill: "GitHub",
-      icon: <FaGithub className="text-gray-600" size="4em" />,
+      icon: <FaDatabase className="text-blue-500" size="4em" />, 
     },
     {
       skill: "NextJS",
       icon:<TbBrandNextjs className="text-black dark:text-white" size="4em"/>
+    },
+    {
+      skill: "Flutter",
+      icon: <RiFlutterLine className="text-blue-600" size="4em" />,
+    },
+    {
+      skill: "Firebase",
+      icon: <SiFirebase className="text-yellow-400" size="4em" />,
     },
     {
       skill: "Web RTC",

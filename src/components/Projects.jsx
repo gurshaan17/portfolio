@@ -6,7 +6,7 @@ import {
   FaGithub,
   FaExternalLinkAlt
 } from "react-icons/fa";
-import { FaFlutter } from "react-icons/fa6";
+import { RiFlutterLine } from "react-icons/ri";
 import { CiChat1 } from "react-icons/ci";
 import { SiRedux, SiVite, SiTailwindcss, SiAuth0, SiExpress, SiPostgresql, SiNextdotjs, SiFirebase, SiTypescript, SiWebrtc, SiWebsocket } from "react-icons/si";
 import { GiArtificialIntelligence } from "react-icons/gi";
@@ -45,7 +45,7 @@ function Projects() {
       case "WebSockets":
         return <CiChat1 size={28} className="text-blue-500" />;
       case "Flutter":
-        return <FaFlutter size={28} className="text-blue-500" />;
+        return <RiFlutterLine size={28} className="text-blue-500" />;
       default:
         return null;
     }
