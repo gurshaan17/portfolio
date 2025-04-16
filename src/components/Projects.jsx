@@ -43,12 +43,22 @@ function Projects() {
         return <SiWebrtc size={28} className="text-blue-500" />;
       case "WebSockets":
         return <CiChat1 size={28} className="text-blue-500" />;
+      case "Flutter":
+        return <SiFlutter size={28} className="text-blue-500" />;
       default:
         return null;
     }
   };
 
   const projects = [
+    {
+      title: "Myriad",
+      imageUrl: "myriad.png",
+      link: "https://github.com/Jagjit0306/Myriad",
+      linkType: "github",
+      techStack: "Flutter, Firebase",
+      demo: "https://github.com/Jagjit0306/Myriad/releases"
+    },
     {
       title:"2D Metaverse",
       imageUrl: "meta1.png",
