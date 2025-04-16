@@ -4,9 +4,9 @@ import {
   FaNodeJs,
   FaDatabase,
   FaGithub,
-  FaExternalLinkAlt,
-  FaFlutter
+  FaExternalLinkAlt
 } from "react-icons/fa";
+import { FaFlutter } from "react-icons/fa6";
 import { CiChat1 } from "react-icons/ci";
 import { SiRedux, SiVite, SiTailwindcss, SiAuth0, SiExpress, SiPostgresql, SiNextdotjs, SiFirebase, SiTypescript, SiWebrtc, SiWebsocket } from "react-icons/si";
 import { GiArtificialIntelligence } from "react-icons/gi";
@@ -99,13 +99,6 @@ function Projects() {
       linkType:"github",
       techStack:"Next.js, MongoDB, Node.js, TailwindCSS",
       demo:"https://shorturl17.vercel.app"
-    },{
-      title: "Pastebin",
-      imageUrl: "/paste.png",
-      link: "https://github.com/gurshaan17/pastebin",
-      linkType:"github",
-      techStack:"Next.js, MongoDB, Node.js, Typescript",
-      demo: "https://controlc.vercel.app"
     }
   ];
 
